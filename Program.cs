@@ -164,7 +164,7 @@ namespace appTry
 
                     string title = video.Title;
                     string fileExtension = video.FileExtension;
-                    string fullName = $"{arrId[i]}_{arrURL[i]}_VC.mp4"; // same thing as title + fileExtension
+                    string fullName = $"{arrId[i]}_{arrURL[i]}_VC.mp4";
                     int resolution = video.Resolution;
 
                     byte[] bytes = video.GetBytes();
